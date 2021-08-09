@@ -2,4 +2,4 @@ docker-alpine
 ========
 
 
-**alpine, pip, aws-cli, terraform, openssl**
+**alpine, pip, aws-cli, terraform**
