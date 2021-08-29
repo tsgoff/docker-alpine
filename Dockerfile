@@ -1,6 +1,6 @@
 FROM alpine
 
-RUN apk add --no-cache curl openssl bash python3 python3-dev py3-pip ruby ruby-json ruby-etc openssh-client aws-cli ffmpeg rsync git && \
+RUN apk add --no-cache curl openssl bash python3 python3-dev py3-pip ruby ruby-json ruby-etc openssh-client aws-cli ffmpeg rsync git jq && \
     pip3 install --upgrade pip && \
     pip install --default-timeout=1000 --upgrade youtube-dl && \
     gem install r10k && \
